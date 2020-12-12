@@ -1,0 +1,39 @@
+{
+    "order_date": "2020-04-15T15:38:25.225Z",
+    "email": "hansi@example.com",
+    "shipping_address": {
+        "name": "Hans Wurst",
+        "address": "123 Fakestreet",
+        "city": "Anytown",
+        "country": "US",
+        "postal_code": "12345",
+        "phone": "(555) 987 654 321"
+    },    
+    "card": {
+        "cardholder": "Hans Wurst",
+        "last4": "4242",
+        "exp_month": 1,
+        "exp_year": 2024
+    },
+    "amount": 17245,
+    "currency": "eur",
+    "cart": [
+        {
+            "price": 13645,
+            "artworkId": 436085,
+            "printSize": "M",
+            "frameStyle": "classic",
+            "frameWidth": 40,
+            "matColor": "mint",
+            "matWidth": 15
+        },
+        {
+            "price": 3600,
+            "artworkId": 436085,
+            "printSize": "S",
+            "frameStyle": "modern",
+            "frameWidth": 20,
+            "matWidth": 0
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ivory",
+    "label": "Ivory",
+    "color": "#fffff0"
+  },
+  {
+    "id": "mint",
+    "label": "Mint",
+    "color": "#e0e6d4"
+  },
+  {
+    "id": "wine",
+    "label": "Wine",
+    "color": "#50222d"
+  },
+  {
+    "id": "indigo",
+    "label": "Indigo",
+    "color": "#29434c"
+  },
+  {
+    "id": "coal",
+    "label": "Coal",
+    "color": "#333a3d"
+  }
+]

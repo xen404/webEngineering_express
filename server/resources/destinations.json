@@ -1,0 +1,22 @@
+[
+  {
+    "country": "AT",
+    "displayName": "Austria",
+    "cost": 1500
+  },
+  {
+    "country": "DE",
+    "displayName": "Germany",
+    "cost": 2000
+  },
+  {
+    "country": "CH",
+    "displayName": "Switzerland",
+    "cost": 5000
+  },
+  {
+    "country": "US",
+    "displayName": "United States of America",
+    "cost": 6000
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "scripts": {
+    "test": "jest --forceExit",
+    "start": "node --insecure-http-parser ./server/server.js 3000"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.3.0",
+    "chance": "^1.1.4",
+    "cookie": "^0.4.0",
+    "fetch-mock-jest": "^1.2.7",
+    "jest": "^25.3.0",
+    "jest-expect-message": "^1.0.2",
+    "mustache": "^4.0.0",
+    "strip-ansi": "^6.0.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "rootDir": "./test",
+    "transform": {
+      ".+\\.m?js$": "babel-jest"
+    },
+    "setupFiles": [
+      "./setupEnvVars.js"
+    ],
+    "setupFilesAfterEnv": [
+      "jest-expect-message",
+      "./jest-tuwien/apitest.js"
+    ],
+    "reporters": [
+      "default",
+      [
+        "./jest-tuwien/reporter.js",
+        {
+          "title": "A3",
+          "maxPoints": 20,
+          "defaultMinusPoints": 0.5
+        }
+      ]
+    ],
+    "globals": {
+      "__SEED__": 1234567890
+    }
+  }
+}
